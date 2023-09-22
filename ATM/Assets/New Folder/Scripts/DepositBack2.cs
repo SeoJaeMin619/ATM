@@ -17,9 +17,9 @@ public class DepositBack2 : MonoBehaviour
         
     }
 
-    public void GameStart()
+    public void SceneMove()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Intro");
     }
 }
 

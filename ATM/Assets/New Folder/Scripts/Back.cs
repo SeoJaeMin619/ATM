@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Deposit : MonoBehaviour
+public class Back : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
-    public void GameStart()
+    public void SceneMove()
     {
-        SceneManager.LoadScene("New");
+        SceneManager.LoadScene("Start");
     }
 }

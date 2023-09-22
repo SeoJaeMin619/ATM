@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class TextScripts : MonoBehaviour
+public class TextScripts3 : MonoBehaviour
 {
     public Text ScriptTxt;
 
@@ -18,13 +18,13 @@ public class TextScripts : MonoBehaviour
     // Update is called once per frame
     public void GoldPlus()
     {
-        Gold -= 10000;
+        Gold += 10000;
         ScriptTxt.text = Gold.ToString();
     }
 
     public void GoldPlus2()
     {
-        Gold -= 50000;
+        Gold += 50000;
         ScriptTxt.text = Gold.ToString();
     }
 }

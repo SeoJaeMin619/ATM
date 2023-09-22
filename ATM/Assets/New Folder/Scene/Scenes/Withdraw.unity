@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 235361606}
   - component: {fileID: 235361605}
   - component: {fileID: 235361607}
+  - component: {fileID: 235361608}
   m_Layer: 5
   m_Name: UpBtn
   m_TagString: Untagged
@@ -255,6 +256,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &235361608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235361601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7fceda1987c5842b774b35c997b5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScriptTxt: {fileID: 1550346153}
 --- !u!1 &401379753
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,8 +687,8 @@ GameObject:
   - component: {fileID: 1290888421}
   - component: {fileID: 1290888423}
   - component: {fileID: 1290888422}
-  - component: {fileID: 1290888425}
   - component: {fileID: 1290888424}
+  - component: {fileID: 1290888425}
   m_Layer: 5
   m_Name: DownBtn
   m_TagString: Untagged
@@ -784,8 +798,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1290888425}
-        m_TargetAssemblyTypeName: TextScripts2, Assembly-CSharp
-        m_MethodName: GoldPlus
+        m_TargetAssemblyTypeName: TextScripts, Assembly-CSharp
+        m_MethodName: GoldPlus2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -804,7 +818,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1290888420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3162d8c9dfb7dd649a398359736b4673, type: 3}
+  m_Script: {fileID: 11500000, guid: df7fceda1987c5842b774b35c997b5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptTxt: {fileID: 1550346153}
